@@ -1,5 +1,6 @@
 ---
 title: "Gallery"
+draft: false
 ---
 
 <div class="gallery">

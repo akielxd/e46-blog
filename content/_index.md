@@ -21,11 +21,11 @@ cover:
 
 | Section | Description |
 |----------|--------------|
-| [Background](/Background/) | How this project started |
+| [Background](/background/) | How this project started |
 | [Modifications](/tags/modifications/) | All performance and visual upgrades |
 | [Maintenance](/tags/maintenance/) | Keeping the 325Ci reliable and fresh |
 | [Repairs](/tags/repairs/) | Lessons learned fixing classic BMW problems |
-| [Gallery](/Gallery/) | A visual journey of progress |
+| [Gallery](/gallery/) | A visual journey of progress |
 
 ---
 
