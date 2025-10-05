@@ -30,20 +30,16 @@ Not long after getting it running reliably, I picked up a welded diff and tossed
 
 So the focus shifted. I started addressing the visual and structural issues that had been bothering me since day one.
 
-The body had damage from a previous accident, and while most of it could be pulled and straightened, it turns out the rear frame is bent. That’s when I decided to cut it out entirely and build a tube-frame rear end.
+The body had damage from a previous accident, and while most of it could be pulled and straightened, it turns out the rear frame is bent. Which is horrible, but i have a plan to deal with this.
 
 ![Damaged rear end](/images/background/accident-damage.png)
 ![Frame rail damage](/images/background/damaged-frame.png)
 
-Still, I managed to pull some of the damage out enough to realign the trunk and tail light. I picked up what I thought was a color-matched trunk lid - close, but the shade was slightly off. Still, I swapped it in along with a replacement passenger-side tail light to clean things up a bit.
+Still, I managed to pull some of the damage out enough to realign the trunk and tail light. I picked up what I thought was a color-matched trunk lid - close, but the shade was slightly off. I swapped it anyway along with a replacement passenger-side tail light to clean things up a bit.
 
 ![rear end re aligned](/images/background/realigned-trunk-and-taillight.png)
 
 That brings things up to where it stands now. A bit of a mix between drift scars and restoration ambition. The long-term plan? Keep bringing it back to life, step by step.
-
-
-![E46 sitting outside](/images/background/View.png)
-(Sitting next to the retired drift sedan)
 
 ## What to Expect Here
 Each update, whether it’s a simple repair or a major modification — will be documented.
