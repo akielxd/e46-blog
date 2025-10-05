@@ -1,0 +1,42 @@
+/* Custom background image for the main header/navigation bar */
+header.header {
+    /* 1. Set the background image and its path */
+    background-image: url('/images/e46-front2.jpg'); 
+    
+    /* 2. Control how the image fills the space */
+    background-size: cover;          /* Ensures the image covers the entire header area */
+    background-position: center;     /* Centers the image within the header */
+    background-repeat: no-repeat;    /* Prevents the image from tiling */
+    
+    /* 3. Optional: Adjust header height if needed to show more of the image */
+    /* If the default PaperMod header is too thin, uncomment and adjust: */
+    min-height: 200px;
+}
+
+/* Optional: Improve text contrast if the image is busy */
+/* This makes the links and title easier to read against the image */
+header.header .header-title a,
+header.header .menu-item a {
+    color: #fff !important; /* Force text to be white */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Adds a subtle shadow for better contrast */
+}
+/* --- Adjust Contrast for Title Text --- */
+
+/* 1. Target the website title/logo text itself */
+/* In PaperMod, this is usually nested under the header-title class. */
+header.header .header-title a {
+    /* Set color to white or a bright color for contrast */
+    color: #FFFFFF !important;
+    
+    /* Add a subtle shadow for better readability against complex images */
+    /* This is the key to making the text "pop" */
+    text-shadow:
+        1px 1px 2px rgba(0, 0, 0, 0.9), /* Dark shadow for depth */
+        -1px -1px 2px rgba(0, 0, 0, 0.9); /* Ensures all edges are defined */
+}
+
+/* 2. Target the navigation links in the header as well (good practice) */
+header.header .menu-item a {
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}

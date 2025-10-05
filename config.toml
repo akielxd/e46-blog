@@ -1,0 +1,33 @@
+baseURL = "https://youre46blog.pages.dev/"
+languageCode = "en-us"
+title = "Straight 6 Serenade"
+theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  customCSS = ["css/extended/custom.css"]
+  defaultTheme = "auto"   # dark/light toggle
+  favicon = "favicon.ico"
+  disableThemeToggle = true
+
+[menu]
+  [[menu.main]]
+    identifier = "Posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "find"
+    name = "Find"
+    url = "find"
+    weight = 2
+
+ [markup]
+  [markup.goldmark]
+   [markup.goldmark.renderer]
+    unsafe = true
