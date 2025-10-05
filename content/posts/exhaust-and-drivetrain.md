@@ -1,7 +1,7 @@
 ---
 title: "Nothing yet!"
 date: 2025-10-05
-draft: true
+draft: false
 tags: ["maintenance", "modifications", "repairs"]
 categories: ["drivetrain", "engine"]
 cover:
