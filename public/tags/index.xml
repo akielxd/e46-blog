@@ -6,13 +6,20 @@
     <description>Recent content in Tags on Straight 6 Serenade</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Maintenance</title>
       <link>http://localhost:1313/tags/maintenance/</link>
-      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/maintenance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Repairs</title>
+      <link>http://localhost:1313/tags/repairs/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/repairs/</guid>
       <description></description>
     </item>
     <item>
@@ -20,13 +27,6 @@
       <link>http://localhost:1313/tags/modifications/</link>
       <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/modifications/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Repairs</title>
-      <link>http://localhost:1313/tags/repairs/</link>
-      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/repairs/</guid>
       <description></description>
     </item>
   </channel>

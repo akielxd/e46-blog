@@ -6,20 +6,27 @@
     <description>Recent content in Categories on Straight 6 Serenade</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Drivetrain</title>
-      <link>http://localhost:1313/categories/drivetrain/</link>
-      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/drivetrain/</guid>
+      <title>Electrical</title>
+      <link>http://localhost:1313/categories/electrical/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/electrical/</guid>
       <description></description>
     </item>
     <item>
       <title>Engine</title>
       <link>http://localhost:1313/categories/engine/</link>
-      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/engine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Drivetrain</title>
+      <link>http://localhost:1313/categories/drivetrain/</link>
+      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/drivetrain/</guid>
       <description></description>
     </item>
   </channel>
