@@ -1,6 +1,6 @@
 baseURL = "https://e46-blog.pages.dev/"
 languageCode = "en-us"
-title = "Straight 6 Serenade"
+title = "RaspySix"
 theme = "PaperMod"
 
 [params]

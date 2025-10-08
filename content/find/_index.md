@@ -5,4 +5,5 @@ draft: false
 ---
 ## Use ctrl + f (command + f on mac) to search 
 <!-- - [Exhaust and Drive train] (/posts/) -->
-- [The beginning](/posts/Background/)
+- [Alternator Replacement](/posts/alternator-replacement/)
+- [Project Background](/background/)
