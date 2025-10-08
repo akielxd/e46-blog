@@ -8,6 +8,7 @@ cover:
   image: "/images/alt-replacement/old-vs-new.png"
   alt: "Old vs New Alternator" 
   relative: true
+summary: Planned to make it louder, ended up making it run again. Classic BMW — alternator out, fresh one in, back to changing headers soon.
 ---
 
 What was supposed to be a simple day installing my catless headers turned into a bit of a detour. I went to start the car and… nothing. Completely dead.  

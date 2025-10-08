@@ -22,12 +22,5 @@
       <guid>http://localhost:1313/tags/repairs/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Modifications</title>
-      <link>http://localhost:1313/tags/modifications/</link>
-      <pubDate>Sun, 05 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/modifications/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

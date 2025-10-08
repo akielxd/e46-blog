@@ -10,6 +10,8 @@ draft: false
   <img src="/images/background/sitting-outside.png">
   <img src="/images/background/realigned-trunk-and-taillight.png">
   <img src="/images/fav-pic-rn.png" alt="">
+  <img src="/images/alt-replacement/alt-out.png" alt="">
+  <img src="/images/alt-replacement/alt-in.png" alt="">
   
 </div>
 
