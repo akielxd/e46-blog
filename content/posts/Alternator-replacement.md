@@ -15,16 +15,11 @@ What was supposed to be a simple day installing my catless headers turned into a
 
 Turns out the alternator had been undercharging the battery for a while, and letting it sit definitely didn’t help. So, before I could think about more power mods, it was time to handle some good ol’ BMW maintenance.
 
----
-
-### Diagnosis
-Battery voltage was low even after a charge, and the alternator wasn’t pushing enough output. Classic case of a dying alternator.  
-
 I managed to source a **used OEM replacement** locally and got to work.
 
 ---
 
-### Removal Process
+### Removal 
 This isn’t a full DIY guide, but here’s the basic rundown if you’re doing this on an M54-powered E46:
 
 1. Remove the **fan and intake** to access the front of the engine.  
