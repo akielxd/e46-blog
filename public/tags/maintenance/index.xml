@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Maintenance on Straight 6 Serenade</title>
+    <title>Maintenance on RaspySix</title>
     <link>http://localhost:1313/tags/maintenance/</link>
-    <description>Recent content in Maintenance on Straight 6 Serenade</description>
+    <description>Recent content in Maintenance on RaspySix</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/maintenance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shifter Rebuild</title>
+      <link>http://localhost:1313/posts/shifter-bushing/</link>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/shifter-bushing/</guid>
+      <description>Tightening up the drivetrain feel with a fresh bushings.</description>
+    </item>
     <item>
       <title>Alternator Replacement</title>
       <link>http://localhost:1313/posts/alternator-replacement/</link>
