@@ -11,10 +11,10 @@ cover:
 summary: "Tightening up the drivetrain feel with a fresh bushings."
 ---
 
-Since the exhaust is out for a custom set up (post coming soon), I decided to address the shifter slop ive been dealing with. 
+Since the exhaust is out for a custom set up **(post coming soon)**, I decided to address the shifter slop ive been dealing with. 
 Today’s job: replacing the **worn-out shifter bushings**, a relatively simple but satisfying install. Let’s get to it.
 
-I’m using the [Garagistic Shifter Rebuild Kit](https://www.garagistic.com/products/e46-325-318-323-316-320-shifter-bushing-kit?variant=40293692964963), which includes:
+I’m using the [**Garagistic Shifter Rebuild Kit**](https://www.garagistic.com/products/e46-325-318-323-316-320-shifter-bushing-kit?variant=40293692964963), which includes:
 
 - Polyurethane rear carrier bushing  
 - Aluminum round shifter bushings  
@@ -28,7 +28,7 @@ I’m using the [Garagistic Shifter Rebuild Kit](https://www.garagistic.com/prod
 First things first, we’re going **under the car**.  
 If yours leaks oil like mine did, you’ll be greeted with some *premium baked-on grime*.
 
-As mentioned before the exhaust is already out so the only things in the way are the **heat shield**, and **driveshaft**. With those removedthe shifter assembly is in full view:
+As mentioned before the exhaust is already out so the only things in the way are the **heat shield**, and **driveshaft**. With those removed the shifter assembly is in full view:
 
 ![Shifter On Car](/images/shifter-bushing/shifter-before.png)
 
