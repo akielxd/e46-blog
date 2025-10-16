@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/exhaust/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Custom Single Exit Exhaust</title>
-      <link>http://localhost:1313/posts/exhaust/</link>
+      <title>Catless Headers Install</title>
+      <link>http://localhost:1313/posts/catless-headers/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/exhaust/</guid>
-      <description>Installed catless headers, a Y-pipe, and a single-exit exhaust setup to bring out that straight-six growl and kill the high-RPM whistle.</description>
+      <guid>http://localhost:1313/posts/catless-headers/</guid>
+      <description>Installed catless headers, a Y-pipe in preparation for a single exit exhaust set up</description>
     </item>
   </channel>
 </rss>

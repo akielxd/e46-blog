@@ -6,8 +6,15 @@
     <description>Recent content in Posts on RaspySix</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Catless Headers Install</title>
+      <link>http://localhost:1313/posts/catless-headers/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/catless-headers/</guid>
+      <description>Picked up catless headers and a Y-pipe for $50, prepped the E46 for a single-exit exhaust setup.</description>
+    </item>
     <item>
       <title>Shifter Rebuild</title>
       <link>http://localhost:1313/posts/shifter-bushing/</link>

@@ -4,6 +4,7 @@ draft: false
 ---
 
 <div class="gallery">
+  <img src="/images/catless-headers/headers-installed.png" alt="">
   <img src="/images/shifter-bushing/shifter-after.png" alt="">
   <img src="/images/shifter-bushing/shifter-clean.png" alt="">
   <img src="/images/shifter-bushing/shifter-before.png" alt="">
