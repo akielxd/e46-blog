@@ -11,7 +11,8 @@ cover:
 summary: "Tightening up the drivetrain feel with a fresh bushings."
 ---
 
-Since the exhaust is out for a custom set up **(post coming soon)**, I decided to address the shifter slop ive been dealing with. 
+Since the exhaust is out for a custom set up **(post coming soon)**, I decided to address the shifter slop I've been dealing with. 
+
 Today’s job: replacing the **worn-out shifter bushings**, a relatively simple but satisfying install. Let’s get to it.
 
 I’m using the [**Garagistic Shifter Rebuild Kit**](https://www.garagistic.com/products/e46-325-318-323-316-320-shifter-bushing-kit?variant=40293692964963), which includes:

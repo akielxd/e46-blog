@@ -46,9 +46,9 @@ Had to **remove the passenger-side engine mount and bracket** just to reach them
 
 ### Installing the New Setup
 
-I decided to reuse the OEM gaskets but added alayer of [**Permatex Ultra Copper**](https://www.autozone.com/sealants-glues-adhesives-and-tape/sealant/p/permatex-ultra-copper-rtv-silicone-high-temperature-gasket-maker-3-oz/554048_0_0?spps.s=5331&cmpid=LIA:US:EN:AD:NL:1000000:GEN:22350391884&gclsrc=aw.ds&gad_source=1&gad_campaignid=22356757832&gbraid=0AAAAADkcoVsegcncOv1Xw2Yn3XZlvFOhR&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a5EKqP7DqWm470hI9x0vxhv9K3KZTGJdoEr-5ha0WFDr0KE13l1N04aAhlEEALw_wcB) gasket maker for some extra sealing confidence.  
+I decided to reuse the OEM gaskets but added a layer of [**Permatex Ultra Copper**](https://www.autozone.com/sealants-glues-adhesives-and-tape/sealant/p/permatex-ultra-copper-rtv-silicone-high-temperature-gasket-maker-3-oz/554048_0_0?spps.s=5331&cmpid=LIA:US:EN:AD:NL:1000000:GEN:22350391884&gclsrc=aw.ds&gad_source=1&gad_campaignid=22356757832&gbraid=0AAAAADkcoVsegcncOv1Xw2Yn3XZlvFOhR&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a5EKqP7DqWm470hI9x0vxhv9K3KZTGJdoEr-5ha0WFDr0KE13l1N04aAhlEEALw_wcB) gasket maker for some extra sealing confidence.  
 
-This time around, things went a lot smoother — more space to work with and better access for a decent ratchet. The only hiccup was remembering exactly how the **engine mount** came out so I could get it back in correctly.  
+This time around, things went a lot smoother, more space to work with and better access for a decent ratchet. The only hiccup was remembering exactly how the **engine mount** came out so I could get it back in correctly.  
 
 While I was in there, I swapped the mount out entirely — it was completely split in half. I had a feeling it was bad and order one ahead of time. 
 
