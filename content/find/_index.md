@@ -6,7 +6,7 @@ draft: false
 Use ctrl + f (command + f on mac) to search 
 
 ---
-- [Catless Headers](/posts/catless-headers)
-- [Shifter Rebuild](/posts/shifter-bushing)
 - [Alternator Replacement](/posts/alternator-replacement/)
+- [Catless Headers](/posts/catless-headers)
 - [Project Background](/background/)
+- [Shifter Rebuild](/posts/shifter-bushing)
