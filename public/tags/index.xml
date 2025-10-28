@@ -6,20 +6,27 @@
     <description>Recent content in Tags on RaspySix</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Maintenance</title>
+      <link>http://localhost:1313/tags/maintenance/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/maintenance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modification</title>
+      <link>http://localhost:1313/tags/modification/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/modification/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Modifications</title>
       <link>http://localhost:1313/tags/modifications/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/modifications/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Maintenance</title>
-      <link>http://localhost:1313/tags/maintenance/</link>
-      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/maintenance/</guid>
       <description></description>
     </item>
     <item>

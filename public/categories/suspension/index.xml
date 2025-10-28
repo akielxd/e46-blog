@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Suspension on RaspySix</title>
+    <link>http://localhost:1313/categories/suspension/</link>
+    <description>Recent content in Suspension on RaspySix</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/suspension/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Control Arm Replacement</title>
+      <link>http://localhost:1313/posts/control-arm-replacement/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/control-arm-replacement/</guid>
+      <description>Replacing the front control arms to tighten up the steering and get rid of worn bushings.</description>
+    </item>
+  </channel>
+</rss>
