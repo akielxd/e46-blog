@@ -1,46 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>E46 Build Log on RaspySix</title>
+    <title>Garage Hub on RaspySix</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in E46 Build Log on RaspySix</description>
+    <description>Recent content in Garage Hub on RaspySix</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>My New Daily</title>
+      <link>http://localhost:1313/f10/new-daily/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/f10/new-daily/</guid>
+      <description>&lt;h1 id=&#34;my-new-f10-535i-m-sport-from-skepticism-to-daily-driver&#34;&gt;My New F10 535i M Sport: From Skepticism to Daily Driver&lt;/h1&gt;
+&lt;p&gt;I originally went out looking for a 2004 Acura TL with a manual transmission, but my plans took an turn when I came across this &lt;strong&gt;2012 BMW 535i M Sport RWD&lt;/strong&gt;. I jumped on it immediately, the seller mentioned it needed a water pump, which is pretty typical BMW stuff.&lt;/p&gt;
+&lt;p&gt;At first, I was skeptical. The car had a number of &lt;strong&gt;voltage-related faults&lt;/strong&gt;, more than the seller let on. But I made an offer anyway… and shockingly, he accepted. So now I’m the proud owner of this beautiful F10!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Valvetronic Motor Replacement</title>
+      <link>http://localhost:1313/f10/valvetronic/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/f10/valvetronic/</guid>
+      <description>&lt;h1 id=&#34;valvetronic-motor-replacement-on-the-f10-535i&#34;&gt;Valvetronic Motor Replacement on the F10 535i&lt;/h1&gt;
+&lt;p&gt;Paradise didn’t last too long. I started noticing the idle was a bit &lt;strong&gt;lumpy&lt;/strong&gt;, and the &lt;strong&gt;low-end torque&lt;/strong&gt; was practically non-existent. Then came the dreaded &lt;strong&gt;Valvetronic motor clicking&lt;/strong&gt; when unlocking the car. I knew I was in for a long day.&lt;/p&gt;
+&lt;p&gt;I ordered a new &lt;strong&gt;Valvetronic servomotor&lt;/strong&gt;, a &lt;strong&gt;valve cover gasket&lt;/strong&gt;, and a cheap &lt;strong&gt;injector puller tool&lt;/strong&gt; off Amazon to tackle the job. Unfortunately, BMW engineers decided to bury this servomotor ridiculously deep in the engine.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Control Arm Replacement</title>
-      <link>http://localhost:1313/posts/control-arm-replacement/</link>
+      <link>http://localhost:1313/e46/control-arm-replacement/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/control-arm-replacement/</guid>
+      <guid>http://localhost:1313/e46/control-arm-replacement/</guid>
       <description>Replacing the front control arms to tighten up the steering and get rid of worn bushings.</description>
     </item>
     <item>
       <title>Single Exit Exhaust</title>
-      <link>http://localhost:1313/posts/single-exit-exhaust/</link>
+      <link>http://localhost:1313/e46/single-exit-exhaust/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/single-exit-exhaust/</guid>
+      <guid>http://localhost:1313/e46/single-exit-exhaust/</guid>
       <description>Finishing the rest of the exhaust and learning to weld in the process.</description>
     </item>
     <item>
       <title>Catless Headers Install</title>
-      <link>http://localhost:1313/posts/catless-headers/</link>
+      <link>http://localhost:1313/e46/catless-headers/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/catless-headers/</guid>
+      <guid>http://localhost:1313/e46/catless-headers/</guid>
       <description>Picked up catless headers and a Y-pipe for $50, prepped the E46 for a single-exit exhaust setup.</description>
     </item>
     <item>
       <title>Shifter Rebuild</title>
-      <link>http://localhost:1313/posts/shifter-bushing/</link>
+      <link>http://localhost:1313/e46/shifter-bushing/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/shifter-bushing/</guid>
+      <guid>http://localhost:1313/e46/shifter-bushing/</guid>
       <description>Tightening up the drivetrain feel with a fresh bushings.</description>
     </item>
     <item>
       <title>Alternator Replacement</title>
-      <link>http://localhost:1313/posts/alternator-replacement/</link>
+      <link>http://localhost:1313/e46/alternator-replacement/</link>
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/alternator-replacement/</guid>
+      <guid>http://localhost:1313/e46/alternator-replacement/</guid>
       <description>Planned to make it louder, ended up making it run again. Classic BMW — alternator out, fresh one in, back to changing headers soon.</description>
     </item>
     <item>

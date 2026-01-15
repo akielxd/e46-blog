@@ -5,7 +5,7 @@ draft: true
 tags: ["modification"]
 categories: ["exhaust"]
 cover:
-  image: "/images/single-exit-exhaust/exhaust-rear.png"
+  image: "/images/e46/single-exit-exhaust/exhaust-rear.png"
   alt: "Freshly finished single exit exhaust setup"
   relative: true
 summary: "Finishing the rest of the exhaust and learning to weld in the process."

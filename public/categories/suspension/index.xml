@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/categories/suspension/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Control Arm Replacement</title>
-      <link>http://localhost:1313/posts/control-arm-replacement/</link>
+      <link>http://localhost:1313/e46/control-arm-replacement/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/control-arm-replacement/</guid>
+      <guid>http://localhost:1313/e46/control-arm-replacement/</guid>
       <description>Replacing the front control arms to tighten up the steering and get rid of worn bushings.</description>
     </item>
   </channel>

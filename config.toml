@@ -16,9 +16,9 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    identifier = "Posts"
-    name = "Posts"
-    url = "/posts/"
+    identifier = "Builds"
+    name = "Builds"
+    url = "/builds/"
     weight = 1
 
   [[menu.main]]

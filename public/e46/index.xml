@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>BMW E46 325Ci on RaspySix</title>
+    <link>http://localhost:1313/e46/</link>
+    <description>Recent content in BMW E46 325Ci on RaspySix</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/e46/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Control Arm Replacement</title>
+      <link>http://localhost:1313/e46/control-arm-replacement/</link>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/e46/control-arm-replacement/</guid>
+      <description>Replacing the front control arms to tighten up the steering and get rid of worn bushings.</description>
+    </item>
+    <item>
+      <title>Single Exit Exhaust</title>
+      <link>http://localhost:1313/e46/single-exit-exhaust/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/e46/single-exit-exhaust/</guid>
+      <description>Finishing the rest of the exhaust and learning to weld in the process.</description>
+    </item>
+    <item>
+      <title>Catless Headers Install</title>
+      <link>http://localhost:1313/e46/catless-headers/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/e46/catless-headers/</guid>
+      <description>Picked up catless headers and a Y-pipe for $50, prepped the E46 for a single-exit exhaust setup.</description>
+    </item>
+    <item>
+      <title>Shifter Rebuild</title>
+      <link>http://localhost:1313/e46/shifter-bushing/</link>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/e46/shifter-bushing/</guid>
+      <description>Tightening up the drivetrain feel with a fresh bushings.</description>
+    </item>
+    <item>
+      <title>Alternator Replacement</title>
+      <link>http://localhost:1313/e46/alternator-replacement/</link>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/e46/alternator-replacement/</guid>
+      <description>Planned to make it louder, ended up making it run again. Classic BMW — alternator out, fresh one in, back to changing headers soon.</description>
+    </item>
+  </channel>
+</rss>

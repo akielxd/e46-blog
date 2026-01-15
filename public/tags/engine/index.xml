@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Engine on RaspySix</title>
+    <link>http://localhost:1313/tags/engine/</link>
+    <description>Recent content in Engine on RaspySix</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/engine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Valvetronic Motor Replacement</title>
+      <link>http://localhost:1313/f10/valvetronic/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/f10/valvetronic/</guid>
+      <description>&lt;h1 id=&#34;valvetronic-motor-replacement-on-the-f10-535i&#34;&gt;Valvetronic Motor Replacement on the F10 535i&lt;/h1&gt;
+&lt;p&gt;Paradise didn’t last too long. I started noticing the idle was a bit &lt;strong&gt;lumpy&lt;/strong&gt;, and the &lt;strong&gt;low-end torque&lt;/strong&gt; was practically non-existent. Then came the dreaded &lt;strong&gt;Valvetronic motor clicking&lt;/strong&gt; when unlocking the car — I knew I was in for a long day.&lt;/p&gt;
+&lt;p&gt;I ordered a new &lt;strong&gt;Valvetronic servomotor&lt;/strong&gt;, a &lt;strong&gt;valve cover gasket&lt;/strong&gt;, and a cheap &lt;strong&gt;injector puller tool&lt;/strong&gt; off Amazon to tackle the job. Little did I know, BMW engineers decided to bury this servomotor ridiculously deep in the engine.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

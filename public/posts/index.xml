@@ -10,38 +10,54 @@
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Control Arm Replacement</title>
-      <link>http://localhost:1313/posts/control-arm-replacement/</link>
+      <link>http://localhost:1313/posts/e46/control-arm-replacement/</link>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/control-arm-replacement/</guid>
-      <description>Finishing the rest of the exhaust and learning to weld in the process.</description>
+      <guid>http://localhost:1313/posts/e46/control-arm-replacement/</guid>
+      <description>Replacing the front control arms to tighten up the steering and get rid of worn bushings.</description>
     </item>
     <item>
       <title>Single Exit Exhaust</title>
-      <link>http://localhost:1313/posts/single-exit-exhaust/</link>
+      <link>http://localhost:1313/posts/e46/single-exit-exhaust/</link>
       <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/single-exit-exhaust/</guid>
+      <guid>http://localhost:1313/posts/e46/single-exit-exhaust/</guid>
       <description>Finishing the rest of the exhaust and learning to weld in the process.</description>
     </item>
     <item>
       <title>Catless Headers Install</title>
-      <link>http://localhost:1313/posts/catless-headers/</link>
+      <link>http://localhost:1313/posts/e46/catless-headers/</link>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/catless-headers/</guid>
+      <guid>http://localhost:1313/posts/e46/catless-headers/</guid>
+      <description>Picked up catless headers and a Y-pipe for $50, prepped the E46 for a single-exit exhaust setup.</description>
+    </item>
+    <item>
+      <title>Catless Headers Install</title>
+      <link>http://localhost:1313/posts/pick/f10/</link>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pick/f10/</guid>
       <description>Picked up catless headers and a Y-pipe for $50, prepped the E46 for a single-exit exhaust setup.</description>
     </item>
     <item>
       <title>Shifter Rebuild</title>
-      <link>http://localhost:1313/posts/shifter-bushing/</link>
+      <link>http://localhost:1313/posts/e46/shifter-bushing/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/shifter-bushing/</guid>
+      <guid>http://localhost:1313/posts/e46/shifter-bushing/</guid>
       <description>Tightening up the drivetrain feel with a fresh bushings.</description>
     </item>
     <item>
       <title>Alternator Replacement</title>
-      <link>http://localhost:1313/posts/alternator-replacement/</link>
+      <link>http://localhost:1313/posts/e46/alternator-replacement/</link>
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/alternator-replacement/</guid>
+      <guid>http://localhost:1313/posts/e46/alternator-replacement/</guid>
       <description>Planned to make it louder, ended up making it run again. Classic BMW — alternator out, fresh one in, back to changing headers soon.</description>
+    </item>
+    <item>
+      <title>E46</title>
+      <link>http://localhost:1313/posts/pick/e46/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pick/e46/</guid>
+      <description>&lt;p&gt;What was supposed to be a simple day installing my catless headers turned into a bit of a detour. I went to start the car and… nothing. Completely dead.&lt;/p&gt;
+&lt;p&gt;Turns out the alternator had been undercharging the battery for a while, and letting it sit definitely didn’t help. So, before I could think about more power mods, it was time to handle some good ol’ BMW maintenance.&lt;/p&gt;
+&lt;p&gt;I managed to source a &lt;strong&gt;used OEM replacement&lt;/strong&gt; locally and got to work.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

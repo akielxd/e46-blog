@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/categories/drivetrain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Shifter Rebuild</title>
-      <link>http://localhost:1313/posts/shifter-bushing/</link>
+      <link>http://localhost:1313/e46/shifter-bushing/</link>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/shifter-bushing/</guid>
+      <guid>http://localhost:1313/e46/shifter-bushing/</guid>
       <description>Tightening up the drivetrain feel with a fresh bushings.</description>
     </item>
   </channel>
