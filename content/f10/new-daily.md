@@ -1,6 +1,6 @@
 ---
 title: "My New Daily"
-date: 2026-01-15
+date: 2026-01-01
 tags: ["F10", "BMW", "Daily Driver", "Maintenance"]
 categories: ["F10"]
 draft: false
