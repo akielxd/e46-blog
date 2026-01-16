@@ -9,15 +9,6 @@
     <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/f10/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My New Daily</title>
-      <link>http://localhost:1313/f10/new-daily/</link>
-      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/f10/new-daily/</guid>
-      <description>&lt;h1 id=&#34;my-new-f10-535i-m-sport-from-skepticism-to-daily-driver&#34;&gt;My New F10 535i M Sport: From Skepticism to Daily Driver&lt;/h1&gt;
-&lt;p&gt;I originally went out looking for a 2004 Acura TL with a manual transmission, but my plans took an turn when I came across this &lt;strong&gt;2012 BMW 535i M Sport RWD&lt;/strong&gt;. I jumped on it immediately, the seller mentioned it needed a water pump, which is pretty typical BMW stuff.&lt;/p&gt;
-&lt;p&gt;At first, I was skeptical. The car had a number of &lt;strong&gt;voltage-related faults&lt;/strong&gt;, more than the seller let on. But I made an offer anyway… and shockingly, he accepted. So now I’m the proud owner of this beautiful F10!&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Valvetronic Motor Replacement</title>
       <link>http://localhost:1313/f10/valvetronic/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
@@ -25,6 +16,15 @@
       <description>&lt;h1 id=&#34;valvetronic-motor-replacement-on-the-f10-535i&#34;&gt;Valvetronic Motor Replacement on the F10 535i&lt;/h1&gt;
 &lt;p&gt;Paradise didn’t last too long. I started noticing the idle was a bit &lt;strong&gt;lumpy&lt;/strong&gt;, and the &lt;strong&gt;low-end torque&lt;/strong&gt; was practically non-existent. Then came the dreaded &lt;strong&gt;Valvetronic motor clicking&lt;/strong&gt; when unlocking the car. I knew I was in for a long day.&lt;/p&gt;
 &lt;p&gt;I ordered a new &lt;strong&gt;Valvetronic servomotor&lt;/strong&gt;, a &lt;strong&gt;valve cover gasket&lt;/strong&gt;, and a cheap &lt;strong&gt;injector puller tool&lt;/strong&gt; off Amazon to tackle the job. Unfortunately, BMW engineers decided to bury this servomotor ridiculously deep in the engine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My New Daily</title>
+      <link>http://localhost:1313/f10/new-daily/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/f10/new-daily/</guid>
+      <description>&lt;h1 id=&#34;my-new-f10-535i-m-sport-from-skepticism-to-daily-driver&#34;&gt;My New F10 535i M Sport: From Skepticism to Daily Driver&lt;/h1&gt;
+&lt;p&gt;I originally went out looking for a 2004 Acura TL with a manual transmission, but my plans took an turn when I came across this &lt;strong&gt;2012 BMW 535i M Sport RWD&lt;/strong&gt;. I jumped on it immediately, the seller mentioned it needed a water pump, which is pretty typical BMW stuff.&lt;/p&gt;
+&lt;p&gt;At first, I was skeptical. The car had a number of &lt;strong&gt;voltage-related faults&lt;/strong&gt;, more than the seller let on. But I made an offer anyway… and shockingly, he accepted. So now I’m the proud owner of this beautiful F10!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

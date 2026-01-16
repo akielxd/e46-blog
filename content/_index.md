@@ -1,5 +1,5 @@
 ---
-title: "Garage Hub"
+title: "RaspySix"
 description: "Latest builds, mods, and adventures from the garage."
 layout: "page"
 ---
@@ -10,7 +10,7 @@ layout: "page"
   <div style="position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); width: 90%; max-width: 800px; padding: 0 1rem;">
     <h1 style="font-size: clamp(1.8rem, 5vw, 3rem); margin-bottom:0.5rem; word-break: normal; overflow-wrap: break-word;">Welcome to the Garage Hub</h1>
     <p style="font-size:1.2rem; margin-bottom:1rem;">Mods, builds, and stories from the garage floor</p>
-    <a href="/builds/" style="padding: 0.8rem 1.5rem; background-color:#FF4C29; color:white; border-radius:8px; text-decoration:none; font-weight:bold;">Explore Builds</a>
+    <a href="/builds/" style="padding: 0.8rem 1.5rem; background-color:#818589; color:white; border-radius:8px; text-decoration:none; font-weight:bold;">Explore Builds</a>
   </div>
 </div>
 
@@ -45,11 +45,17 @@ layout: "page"
 
 ---
 
-<!-- Call to Action Section -->
-<div style="text-align:center; margin-top:3rem;">
-  <h2>Explore More!</h2>
-  <p>Head over to the builds page to see every mod, repair, and track day update in one place.</p>
-  <a href="/builds/" style="padding: 0.8rem 1.5rem; background-color:#FF4C29; color:white; border-radius:8px; text-decoration:none; font-weight:bold;">Go to Builds</a>
+<!-- Call to Action Section --> 
+<div style="text-align:center; margin-top:3rem;"> <h2>Explore More!</h2> <p>Dive deeper — useful resources, and visual progress from every project.</p>
+
+  <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+
+<a href="/gallery/" style="padding: 0.8rem 1.5rem; background-color:#818589; color:white; border-radius:8px; text-decoration:none; font-weight:bold;">Gallery</a> 
+    
+<a href="/resources/" style="padding: 0.8rem 1.5rem; background-color:#818589; color:white; border-radius:8px; text-decoration:none; font-weight:bold;">Resources</a> 
+    
+  </div>
+
 </div>
 
 ---
