@@ -8,7 +8,7 @@ layout: "page"
 <div style="position: relative; text-align: center; color: white;">
   <img src="/images/garage-hero.png" alt="Garage Hero" style="width:100%; max-height:500px; object-fit:cover; filter: brightness(70%); border-radius: 12px;">
   <div style="position: absolute; top:50%; left:50%; transform: translate(-50%, -50%); width: 90%; max-width: 800px; padding: 0 1rem;">
-    <h1 style="font-size: clamp(1.8rem, 5vw, 3rem); margin-bottom:0.5rem; word-break: normal; overflow-wrap: break-word;">Welcome to the Garage</h1>
+    <h1 style="font-size: clamp(1.8rem, 5vw, 3rem); margin-bottom:2rem; word-break: normal; overflow-wrap: break-word;">Welcome to the Garage</h1>
     <!--
     <p style="font-size:1.2rem; margin-bottom:1rem;">Mods, builds, and stories from the garage floor</p>
     -->
