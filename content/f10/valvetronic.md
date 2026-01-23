@@ -20,10 +20,13 @@ I ordered a new **Valvetronic servomotor**, a **valve cover gasket**, and a chea
 
 ## Disassembly
 
-I got all the **covers, intake piping, and electrical connectors** out of the way and started removing the **valve cover bolts**. Surprisingly, this part was easier than removing the valve cover on the M54 in the E46.  
+I got all the **covers, intake piping, and electrical connectors** out of the way and started removing the **valve cover bolts**. Surprisingly, this part was easier than removing the valve cover on the M54 in the E46. 
 
-- Only casualty: a single **PCV hose**.  
-- Everything else came off cleanly.  
+Check out this cracked PCV hose, It had clearly been previously “repaired” with **tape and silicone**.  
+
+![Valve Cover Removed](/images/f10/valvetronic/pcv-old.jpg)
+
+Besides that everything else came off cleanly.  
 
 ![Valve Cover Removed](/images/f10/valvetronic/valvetronic-valvecover.jpg)
 
@@ -42,10 +45,8 @@ After about 2 hours of work, the motor was finally out.
 ## Installation & Relearning
 - Replaced the part
 - Put everything back together
+- Replaced PCV hose
 - Pulled the laptop with ISTA to relearn and run in the new motor
 
 Overall, this job was easier than expected, just a bit tedious. Lesson learned: be wary of cheap Amazon tools. They might save money, but they can also cause headaches.
 
----
-
->“Some jobs feel impossible until you get your hands dirty — then it’s just a story to tell.”
