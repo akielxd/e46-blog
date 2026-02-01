@@ -104,7 +104,7 @@ I replaced it, cleared the codes, and instantly:
 - Fault cleared  
 - System behaved exactly as designed  
 
-![Fixed light](/images/f10/airbag/fixed.png)
+![Fixed light](/images/f10/airbag/fixed.jpg)
 
 That was it.
 
