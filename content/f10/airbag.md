@@ -76,7 +76,7 @@ With my focus shifted, I checked the indicator behavior:
 
 I grabbed a used roof function center from the junkyard and swapped it in **without clearing codes**.
 
-![FZD Modules](/images/f10/airbag/fzd.jpg)
+![FZD Modules](/images/f10/airbag/fzdx2.jpg)
 
 Still no light.
 
@@ -88,7 +88,7 @@ At this point, morale was officially low.
 
 I went back to the wiring between the **ACSM and FZD** and noticed something I had completely overlooked earlier. A power line feeding the FZD, protected by a fuse.
 
-![ACSM to FZD wiring](/images/f10/airbag/wiring.png)
+![ACSM to FZD wiring](/images/f10/airbag/wiring.jpg)
 
 That’s when it clicked.
 
@@ -96,7 +96,7 @@ That’s when it clicked.
 
 Sure enough, I checked the fuse and found it **blown**. 
 
-![Blown fuse](/images/f10/airbag/fuse.png)
+![Blown fuse](/images/f10/airbag/fuse.jpg)
 
 
 I replaced it, cleared the codes, and instantly:
