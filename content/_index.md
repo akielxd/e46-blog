@@ -23,21 +23,21 @@ layout: "page"
   <h2>Check Out the Latest Posts</h2>
   <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center;">
 
-<a href="/f10/valvetronic/" style="text-decoration:none; max-width:350px;">
+<a href="/f10/airbag/" style="text-decoration:none; max-width:350px;">
   <div style="border-radius:12px; overflow:hidden; box-shadow:0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s;">
-    <img src="/images/f10/valvetronic/valvetronic-valvecover.jpg" alt="" style="width:100%; display:block;">
+    <img src="/images/f10/airbag/warning.PNG" alt="" style="width:100%; display:block;">
     <div style="padding:0.5rem;">
-      <h3 style="margin:0.5rem 0; text-align:center;">Valvetronic motor replacement</h3>
+      <h3 style="margin:0.5rem 0; text-align:center;">Passenger Restraint Warning</h3>
       <p style="text-align:center; color:gray; margin:0;">BMWW F10 535i</p>
     </div>
   </div>
 </a>
 
-<a href="/f10/new-daily/" style="text-decoration:none; max-width:350px;">
+<a href="/f10/valvetronic/" style="text-decoration:none; max-width:350px;">
   <div style="border-radius:12px; overflow:hidden; box-shadow:0 4px 10px rgba(0,0,0,0.2); transition: transform 0.2s;">
-    <img src="/images/f10/f10-rear.PNG" alt="" style="width:100%; display:block;">
+    <img src="/images/f10valvetronic/valvetronic-valvecover.jpg" alt="" style="width:100%; display:block;">
     <div style="padding:0.5rem;">
-      <h3 style="margin:0.5rem 0; text-align:center;">My New Daily</h3>
+      <h3 style="margin:0.5rem 0; text-align:center;">Valvetronic Motor Replacement</h3>
       <p style="text-align:center; color:gray; margin:0;">BMW F10 535i</p>
     </div>
   </div>
