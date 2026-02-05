@@ -9,6 +9,17 @@
     <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/maintenance/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>OFHG and Mickey Mouse Flange</title>
+      <link>http://localhost:1313/f10/ofhg/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/f10/ofhg/</guid>
+      <description>&lt;h1 id=&#34;chasing-a-coolant-leak&#34;&gt;Chasing a Coolant Leak&lt;/h1&gt;
+&lt;p&gt;I noticed a &lt;strong&gt;small coolant drip&lt;/strong&gt; under the car, followed by the &lt;strong&gt;“Refill Coolant” warning&lt;/strong&gt;. Nothing horrible at first, just enough for me to start investigating. After a quick inspection, it seemed like the leak was coming from the &lt;strong&gt;oil filter housing area&lt;/strong&gt;, so i ordered the part and got to work.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;oil-filter-housing--oil-cooler-gaskets&#34;&gt;Oil Filter Housing &amp;amp; Oil Cooler Gaskets&lt;/h2&gt;
+&lt;p&gt;Once I got everything apart, it was obvious the job had been done &lt;strong&gt;recently&lt;/strong&gt; the gaskets were still in decent shape. At that point, I figured I was already in there, so I replaced them anyway for peace of mind and started reassembling everything.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Valvetronic Motor Replacement</title>
       <link>http://localhost:1313/f10/valvetronic/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>

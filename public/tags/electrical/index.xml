@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Electrical on RaspySix</title>
+    <link>http://localhost:1313/tags/electrical/</link>
+    <description>Recent content in Electrical on RaspySix</description>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/electrical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Passenger Airbag Deactivation Fault</title>
+      <link>http://localhost:1313/f10/airbag/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/f10/airbag/</guid>
+      <description>&lt;h2 id=&#34;diagnostic-rabbit-hole&#34;&gt;Diagnostic Rabbit Hole&lt;/h2&gt;
+&lt;p&gt;This one tested my patience.&lt;/p&gt;
+&lt;p&gt;Got an airbag warning tied to the &lt;strong&gt;front passenger airbag deactivation indicator&lt;/strong&gt;. ISTA reported:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;930AB2 – Indicator lamp for front passenger airbag deactivation: Short-circuit to earth / open circuit&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At first, this sounded terrifying. Airbags, igniters, crash safety modules. The usual things that make you reconsider touching anything at all.&lt;/p&gt;
+&lt;p&gt;My mind went straight to worst-case scenarios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Faulty seat airbag igniter&lt;/li&gt;
+&lt;li&gt;Broken wiring inside the seat&lt;/li&gt;
+&lt;li&gt;Bad occupancy sensor&lt;/li&gt;
+&lt;li&gt;Worst of all, an ACSM failure (&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chasing-the-obvious-and-being-wrong&#34;&gt;Chasing the Obvious (and Being Wrong)&lt;/h2&gt;
+&lt;p&gt;I pulled the wiring diagrams in ISTA and traced the entire circuit. The ACSM feeds connector &lt;strong&gt;X12-1B&lt;/strong&gt;, which then runs directly to &lt;strong&gt;B69&lt;/strong&gt;, the side airbag igniter in the seat.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

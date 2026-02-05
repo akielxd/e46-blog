@@ -6,8 +6,40 @@
     <description>Recent content in F10 on RaspySix</description>
     <generator>Hugo -- 0.151.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/f10/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Passenger Airbag Deactivation Fault</title>
+      <link>http://localhost:1313/f10/airbag/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/f10/airbag/</guid>
+      <description>&lt;h2 id=&#34;diagnostic-rabbit-hole&#34;&gt;Diagnostic Rabbit Hole&lt;/h2&gt;
+&lt;p&gt;This one tested my patience.&lt;/p&gt;
+&lt;p&gt;Got an airbag warning tied to the &lt;strong&gt;front passenger airbag deactivation indicator&lt;/strong&gt;. ISTA reported:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;930AB2 – Indicator lamp for front passenger airbag deactivation: Short-circuit to earth / open circuit&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At first, this sounded terrifying. Airbags, igniters, crash safety modules. The usual things that make you reconsider touching anything at all.&lt;/p&gt;
+&lt;p&gt;My mind went straight to worst-case scenarios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Faulty seat airbag igniter&lt;/li&gt;
+&lt;li&gt;Broken wiring inside the seat&lt;/li&gt;
+&lt;li&gt;Bad occupancy sensor&lt;/li&gt;
+&lt;li&gt;Worst of all, an ACSM failure (&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;chasing-the-obvious-and-being-wrong&#34;&gt;Chasing the Obvious (and Being Wrong)&lt;/h2&gt;
+&lt;p&gt;I pulled the wiring diagrams in ISTA and traced the entire circuit. The ACSM feeds connector &lt;strong&gt;X12-1B&lt;/strong&gt;, which then runs directly to &lt;strong&gt;B69&lt;/strong&gt;, the side airbag igniter in the seat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OFHG and Mickey Mouse Flange</title>
+      <link>http://localhost:1313/f10/ofhg/</link>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/f10/ofhg/</guid>
+      <description>&lt;h1 id=&#34;chasing-a-coolant-leak&#34;&gt;Chasing a Coolant Leak&lt;/h1&gt;
+&lt;p&gt;I noticed a &lt;strong&gt;small coolant drip&lt;/strong&gt; under the car, followed by the &lt;strong&gt;“Refill Coolant” warning&lt;/strong&gt;. Nothing horrible at first, just enough for me to start investigating. After a quick inspection, it seemed like the leak was coming from the &lt;strong&gt;oil filter housing area&lt;/strong&gt;, so i ordered the part and got to work.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;oil-filter-housing--oil-cooler-gaskets&#34;&gt;Oil Filter Housing &amp;amp; Oil Cooler Gaskets&lt;/h2&gt;
+&lt;p&gt;Once I got everything apart, it was obvious the job had been done &lt;strong&gt;recently&lt;/strong&gt; the gaskets were still in decent shape. At that point, I figured I was already in there, so I replaced them anyway for peace of mind and started reassembling everything.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Valvetronic Motor Replacement</title>
       <link>http://localhost:1313/f10/valvetronic/</link>

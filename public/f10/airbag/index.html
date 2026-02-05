@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Passenger Airbag Deactivation Fault | RaspySix</title>
+<meta name="keywords" content="F10, BMW, Electrical">
+<meta name="description" content="Diagnostic Rabbit Hole
+This one tested my patience.
+Got an airbag warning tied to the front passenger airbag deactivation indicator. ISTA reported:
+930AB2 – Indicator lamp for front passenger airbag deactivation: Short-circuit to earth / open circuit
+At first, this sounded terrifying. Airbags, igniters, crash safety modules. The usual things that make you reconsider touching anything at all.
+My mind went straight to worst-case scenarios:
+
+Faulty seat airbag igniter
+Broken wiring inside the seat
+Bad occupancy sensor
+Worst of all, an ACSM failure (
+
+
+Chasing the Obvious (and Being Wrong)
+I pulled the wiring diagrams in ISTA and traced the entire circuit. The ACSM feeds connector X12-1B, which then runs directly to B69, the side airbag igniter in the seat.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/f10/airbag/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.af312df7a337ea609c5aad0115a2bf634a493725988ff4d9aaa5e77259ce717a.css" integrity="sha256-rzEt96M36mCcWq0BFaK/Y0pJNyWYj/TZqqXnclnOcXo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/f10/airbag/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="RaspySix (Alt + H)">RaspySix</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/builds/" title="Builds">
+                    <span>Builds</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/find" title="Find">
+                    <span>Find</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/f10/">BMW F10 535i</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Passenger Airbag Deactivation Fault
+    </h1>
+    <div class="post-meta"><span title='2026-02-01 00:00:00 +0000 UTC'>February 1, 2026</span>&nbsp;·&nbsp;<span>2 min</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="http://localhost:1313/images/f10/airbag/warning.PNG" alt="Passenger Restraint Warning">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#diagnostic-rabbit-hole" aria-label="Diagnostic Rabbit Hole">Diagnostic Rabbit Hole</a></li>
+                <li>
+                    <a href="#chasing-the-obvious-and-being-wrong" aria-label="Chasing the Obvious (and Being Wrong)">Chasing the Obvious (and Being Wrong)</a></li>
+                <li>
+                    <a href="#wiring--airbag-checks" aria-label="Wiring &amp; Airbag Checks">Wiring &amp; Airbag Checks</a></li>
+                <li>
+                    <a href="#the-wait-a-minute-moment" aria-label="The “Wait a Minute” Moment">The “Wait a Minute” Moment</a></li>
+                <li>
+                    <a href="#chasing-the-indicator" aria-label="Chasing the Indicator">Chasing the Indicator</a></li>
+                <li>
+                    <a href="#final-thoughts" aria-label="Final Thoughts">Final Thoughts</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="diagnostic-rabbit-hole">Diagnostic Rabbit Hole<a hidden class="anchor" aria-hidden="true" href="#diagnostic-rabbit-hole">#</a></h2>
+<p>This one tested my patience.</p>
+<p>Got an airbag warning tied to the <strong>front passenger airbag deactivation indicator</strong>. ISTA reported:</p>
+<p><strong>930AB2 – Indicator lamp for front passenger airbag deactivation: Short-circuit to earth / open circuit</strong></p>
+<p>At first, this sounded terrifying. Airbags, igniters, crash safety modules. The usual things that make you reconsider touching anything at all.</p>
+<p>My mind went straight to worst-case scenarios:</p>
+<ul>
+<li>Faulty seat airbag igniter</li>
+<li>Broken wiring inside the seat</li>
+<li>Bad occupancy sensor</li>
+<li>Worst of all, an ACSM failure (</li>
+</ul>
+<hr>
+<h2 id="chasing-the-obvious-and-being-wrong">Chasing the Obvious (and Being Wrong)<a hidden class="anchor" aria-hidden="true" href="#chasing-the-obvious-and-being-wrong">#</a></h2>
+<p>I pulled the wiring diagrams in ISTA and traced the entire circuit. The ACSM feeds connector <strong>X12-1B</strong>, which then runs directly to <strong>B69</strong>, the side airbag igniter in the seat.</p>
+<p><img alt="ACSM to B69 wiring diagram" loading="lazy" src="/images/f10/airbag/x12-b69.jpg"></p>
+<p>With the diagram in hand, I started testing a multimeter.</p>
+<hr>
+<h2 id="wiring--airbag-checks">Wiring &amp; Airbag Checks<a hidden class="anchor" aria-hidden="true" href="#wiring--airbag-checks">#</a></h2>
+<ul>
+<li>Continuity from <strong>X12 to B69</strong>: good</li>
+<li>Resistance across the igniter: <strong>~2.5 ohms</strong> (within spec)</li>
+</ul>
+<p>With those results, I confidently ruled out:</p>
+<ul>
+<li>Seat airbag igniter</li>
+<li>Seat wiring</li>
+<li>ACSM output to the igniter</li>
+</ul>
+<p>So then <strong>What could be the cause of this fault?</strong></p>
+<hr>
+<h2 id="the-wait-a-minute-moment">The “Wait a Minute” Moment<a hidden class="anchor" aria-hidden="true" href="#the-wait-a-minute-moment">#</a></h2>
+<p>After re-reading the ISTA fault description, I realized the fault didn’t actually say anything about the airbag itself. It specifically says the <strong>indicator lamp for front passenger airbag deactivation</strong>.</p>
+<p>That detail changed the direction of the diagnosis. The indicator is housed in the <strong>roof function center (FZD)</strong>.</p>
+<hr>
+<h2 id="chasing-the-indicator">Chasing the Indicator<a hidden class="anchor" aria-hidden="true" href="#chasing-the-indicator">#</a></h2>
+<p>With my focus shifted, I checked the indicator behavior:</p>
+<ul>
+<li>Light behavior on startup → nothing</li>
+<li>Passenger seated → still nothing</li>
+</ul>
+<p>I got a used roof function center from the junkyard and swapped it in.</p>
+<p><img alt="FZD Modules" loading="lazy" src="/images/f10/airbag/fzdx2.jpg"></p>
+<p>Still no light.</p>
+<p>At this point, I was confused until i looked at the wiring between the <strong>ACSM and FZD</strong> and noticed something I had completely overlooked earlier. A power line feeding the FZD, protected by a fuse.</p>
+<p><img alt="ACSM to FZD wiring" loading="lazy" src="/images/f10/airbag/wiring.jpg"></p>
+<p>That’s when it clicked.</p>
+<p><em>Is it really that simple? Did I just do all of this for nothing?</em></p>
+<p>Sure enough, I checked the fuse and it was <strong>blown</strong>.</p>
+<p><img alt="Blown fuse" loading="lazy" src="/images/f10/airbag/fuse.jpg"></p>
+<p>I replaced it, cleared the codes, and instantly:</p>
+<ul>
+<li>Passenger airbag indicator illuminated correctly</li>
+<li>Fault cleared</li>
+<li>System behaved exactly as designed</li>
+</ul>
+<p><img alt="Fixed light" loading="lazy" src="/images/f10/airbag/fixed.jpg"></p>
+<p>That was it.</p>
+<hr>
+<h2 id="final-thoughts">Final Thoughts<a hidden class="anchor" aria-hidden="true" href="#final-thoughts">#</a></h2>
+<p>This was a perfect example of how BMW faults can <em>sound</em> catastrophic but end up being painfully simple.</p>
+<p>All that stress… for a fuse.<br>
+<strong>BMW ownership in a nutshell.</strong></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/f10/">F10</a></li>
+      <li><a href="http://localhost:1313/tags/bmw/">BMW</a></li>
+      <li><a href="http://localhost:1313/tags/electrical/">Electrical</a></li>
+    </ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">RaspySix</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>
